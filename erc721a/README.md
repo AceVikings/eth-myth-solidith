@@ -55,3 +55,13 @@ ERC721A vs ERC721 have almost the same gas cost for mint and transfer cycles and
 Therefore, ERC721A is not ALWAYS better than ERC721.
 
 **MYTH BUSTED**
+
+---
+
+To run tests yourself use
+
+```
+ REPORT_GAS=true npx hardhat test
+```
+
+In the test/Test.js change the `Max` value to update the number of tokens being minted and transferred.
